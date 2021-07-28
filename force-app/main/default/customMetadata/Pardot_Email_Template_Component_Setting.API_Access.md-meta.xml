@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>API Access</label>
+    <protected>false</protected>
+    <values>
+        <field>Business_Unit__c</field>
+        <value xsi:type="xsd:string">0Uv5h000000XZH8CAO</value>
+    </values>
+    <values>
+        <field>Client_Id__c</field>
+        <value xsi:type="xsd:string">3MVG95mg0lk4batiN4PrPO_zZqAOxlj50L9u3ITKRmatdsKooFpRO84YwI6YKkuIXMj6LuEHV4GIoF68ZcL.F</value>
+    </values>
+    <values>
+        <field>Client_Secret__c</field>
+        <value xsi:type="xsd:string">5A9835257BA9F16C92835D23E94EC714FA5E45917027B84D6A7B2F69D9D42592</value>
+    </values>
+    <values>
+        <field>Pardot_API_URL__c</field>
+        <value xsi:type="xsd:string">https://pi.demo.pardot.com/api/</value>
+    </values>
+    <values>
+        <field>Username__c</field>
+        <value xsi:type="xsd:string">mato@pardot.contest02.jp</value>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:type="xsd:string">sfdc1234</value>
+    </values>
+</CustomMetadata>

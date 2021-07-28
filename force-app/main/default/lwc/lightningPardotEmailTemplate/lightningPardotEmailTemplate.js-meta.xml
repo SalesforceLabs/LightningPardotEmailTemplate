@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Lightning Pardot Email Template</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightningStatic__Email</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage, lightningStatic__Email, lightning__HomePage">
+            <property label="One-to-One Email Template" name="htmlValue" type="String" datasource="apex://PardotEmailTemplatePicklistController" required="true"  />    
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
